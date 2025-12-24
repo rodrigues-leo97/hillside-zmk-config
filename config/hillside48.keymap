@@ -30,6 +30,56 @@
             bindings = <&kp QUESTION>;
             key-positions = <0 12>;
         };
+
+        arroba {
+            bindings = <&kp AT>;
+            key-positions = <1 13>;
+        };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <2 14>;
+        };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <24 12>;
+        };
+
+        parents_left {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <6 18>;
+        };
+
+        parents_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <7 19>;
+        };
+
+        key_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <8 20>;
+        };
+
+        key_right {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <9 21>;
+        };
+
+        colchets_left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <10 22>;
+        };
+
+        colchets_right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <11 23>;
+        };
+
+        tiozinho {
+            bindings = <&kp TILDE>;
+            key-positions = <13 25>;
+        };
     };
 
     keymap {
